@@ -1,17 +1,18 @@
 body {
-    font-family: 'Josefin Sans';font-size: 20px;
+    font-family: 'Josefin Sans';
+  font-size: 4vw;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 9vw;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 7vw;
 }
 
 h3 {
-    font-size: 1.25em;
+    font-size: 5vw;
 }
 
 iframe{
@@ -42,7 +43,7 @@ li{
   text-align: left;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
  div.container {
   display: flex;
 }
@@ -57,6 +58,22 @@ li{
   margin-left: auto;
   margin-right: auto;
   width: 70vw;
+}
+
+  body {
+    font-family: 'Josefin Sans';
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
 }
 
   

@@ -43,10 +43,11 @@ li{
   text-align: left;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) and (orientation: landscape) {
  div.container {
   display: flex;
 }
+
  
   ul.equip {
     column-count: 2;
@@ -59,22 +60,5 @@ li{
   margin-right: auto;
   width: 70vw;
 }
-
-  body {
-    font-family: 'Josefin Sans';
-}
-
-h1 {
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 1.5em;
-}
-
-h3 {
-    font-size: 1.25em;
-}
-
-  
-}
+    
+} 

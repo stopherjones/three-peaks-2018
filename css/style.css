@@ -1,23 +1,24 @@
 body {
     font-family: 'Josefin Sans';
-  font-size: 4vw;
+  margin: 5px;
 }
 
 h1 {
-    font-size: 9vw;
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 7vw;
+    font-size: 4em;
+  
 }
 
 h3 {
-    font-size: 5vw;
+    font-size: 1.25em;
 }
 
 iframe{
   width: 100%; 
-  height:400px;
+  height: 500px;
 }
 
 div.container {
@@ -28,10 +29,27 @@ div.container {
 div.timing {
   width: 100%;
 }
-
-table {
+img.elevation{
   width: 100%;
 }
+
+div.info {
+  width: 100%;
+}
+
+table {
+  width: 100%;}
+
+
+th {
+  padding-right:10px;
+}
+
+td {
+  padding-right:10px;
+}
+
+
 
 ul.equip {
   list-style-type: none;
@@ -43,12 +61,24 @@ li{
   text-align: left;
 }
 
-@media only screen and (min-width: 600px) and (orientation: landscape) {
+@media only screen and (min-width: 600px) {
  div.container {
   display: flex;
 }
-
  
+ div.elevation{
+  width: 60%;
+}
+  
+  img.elevation{
+  width: 100%;
+}
+  
+
+div.info {
+  width: 40%;
+}
+
   ul.equip {
     column-count: 2;
   margin: auto;
@@ -60,5 +90,5 @@ li{
   margin-right: auto;
   width: 70vw;
 }
-    
-} 
+
+}
